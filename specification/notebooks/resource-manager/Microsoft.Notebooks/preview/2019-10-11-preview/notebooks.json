@@ -196,7 +196,10 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/NotebookProxy"
+            }
           },
           "204": {
             "description": "No Content"
