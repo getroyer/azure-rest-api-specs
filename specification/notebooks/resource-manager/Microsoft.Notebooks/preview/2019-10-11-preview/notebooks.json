@@ -694,7 +694,7 @@
           "type": "array",
           "description": "An array of error detail objects.",
           "items": {
-            "$ref": "#/definitions/CloudError"
+            "$ref": "#/definitions/ErrorResponse"
           }
         }
       }
